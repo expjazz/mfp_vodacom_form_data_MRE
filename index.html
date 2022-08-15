@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="https://sdk.amazonaws.com/js/aws-sdk-2.1141.0.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vodacom video test</title>
+</head>
+<body>
+  <h1>Upload a video</h1>
+  <input
+    type="file"
+    id="fileUpload"
+    className="hidden"
+    accept="video/*"
+  />
+
+  <video id="video" controls style="display: none;"></video>
+
+  <button id="button">
+    Upload
+  </button>
+
+  <a id="videoURL" style="display: none;"> Visit uploaded video </a>
+  <script src="./index.js" type="text/javascript">
+
+  </script>
+  <p>test 1</p>
+</body>
+</html>
